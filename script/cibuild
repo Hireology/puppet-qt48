@@ -1,0 +1,5 @@
+ruby -v
+env
+
+bundle check || bundle install --path vendor/bundle
+bundle exec rspec spec
